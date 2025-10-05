@@ -1,0 +1,42 @@
+User-agent: *
+# robots.txt for 3069 Game
+# Last updated: 2023-10-05
+
+# Default policy for all crawlers
+User-agent: *
+Disallow: /@vite/
+Disallow: /node_modules/
+Disallow: /vercel.json
+Disallow: /server.js
+Disallow: /Rakefile
+Disallow: /CONTRIBUTING.md
+Disallow: /LICENSE.txt
+Disallow: /package.json
+Disallow: /.gitignore
+Disallow: /.jshintrc
+
+# Allow all other content
+Allow: /
+
+# Specific directives for Googlebot
+User-agent: Googlebot
+Crawl-delay: 2
+Allow: /
+
+# Specific directives for Bingbot
+User-agent: Bingbot
+Crawl-delay: 3
+Allow: /
+
+# Specific directives for mobile crawlers
+User-agent: Googlebot-Mobile
+Allow: /
+
+# Sitemap location
+Sitemap: https://www.3069game.com/sitemap.xml
+
+# Host directive (for websites with multiple mirrors)
+Host: https://www.3069game.com
+
+# Contact information for webmasters
+# Webmaster: webmaster@3069game.com

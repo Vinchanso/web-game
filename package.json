@@ -1,0 +1,35 @@
+{
+  "name": "3069-game",
+  "version": "1.0.0",
+  "description": "A fun and challenging number puzzle game inspired by 2048 - combine tiles to reach the ultimate 3069 tile!",
+  "main": "index.html",
+  "scripts": {
+    "start": "python -m http.server 3000",
+    "dev": "python -m http.server 3000"
+  },
+  "keywords": [
+    "game",
+    "puzzle",
+    "3069",
+    "2048",
+    "number game",
+    "brain teaser",
+    "browser game",
+    "web game"
+  ],
+  "author": "3069 Game Team",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/YOUR_USERNAME/3069-game.git"
+  },
+  "homepage": "https://github.com/YOUR_USERNAME/3069-game",
+  "engines": {
+    "node": ">=12.0.0"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+}

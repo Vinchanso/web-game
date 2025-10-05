@@ -1,0 +1,237 @@
+/* Custom styles for enhanced UI and advertisement spaces */
+
+/* Game Tips Section */
+.game-tips {
+  margin-top: 30px;
+  padding: 20px;
+  background-color: #faf8ef;
+  border-radius: 6px;
+  border: 1px solid #d8d4d0;
+}
+
+.game-tips h3 {
+  color: #776e65;
+  margin-top: 0;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+/* Leaderboard Section */
+.leaderboard {
+  transition: all 0.3s ease;
+}
+
+.leaderboard:hover {
+  background-color: #c9b7a5;
+}
+
+.score-list p {
+  font-weight: bold;
+  transition: transform 0.2s ease;
+}
+
+.score-list p:hover {
+  transform: translateX(5px);
+}
+
+/* App Promotion Section */
+.app-promotion p {
+  color: #776e65;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.app-promotion a {
+  text-decoration: none;
+  display: inline-block;
+}
+
+.app-promotion img {
+  transition: transform 0.3s ease;
+  vertical-align: middle;
+}
+
+.app-promotion img:hover {
+  transform: scale(1.05);
+}
+
+/* Advertisement Styles */
+.ad-banner {
+  transition: all 0.3s ease;
+}
+
+.ad-footer {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.ad-placeholder {
+  transition: all 0.3s ease;
+  border: 1px dashed #ccc;
+}
+
+.ad-placeholder:hover {
+  background-color: #e8e8e8;
+  border-color: #999;
+}
+
+/* Enhanced Game Container */
+.game-container {
+  box-shadow: 0 10px 30px rgba(187, 173, 160, 0.4);
+  transition: box-shadow 0.3s ease;
+}
+
+.game-container:hover {
+  box-shadow: 0 15px 35px rgba(187, 173, 160, 0.5);
+}
+
+/* Button Hover Effects */
+.restart-button, .retry-button, .keep-playing-button {
+  transition: all 0.2s ease;
+}
+
+.restart-button:hover, .retry-button:hover, .keep-playing-button:hover {
+  background-color: #9f8a76;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Tile Animations Enhancement */
+.tile {
+  transition-duration: 120ms;
+}
+
+/* Responsive Adjustments */
+@media screen and (max-width: 520px) {
+  .ad-banner .ad-placeholder {
+    height: 60px;
+    font-size: 12px;
+  }
+  
+  .ad-footer .ad-placeholder {
+    height: 200px;
+  }
+  
+  .game-tips {
+    padding: 15px;
+  }
+  
+  .leaderboard {
+    padding: 10px;
+  }
+}
+
+/* 网格模块颜色亮度调整 - 暖色调、护眼、科技感预览版 */
+
+/* 调整游戏容器背景色，增加科技感和暖色调 */
+.game-container {
+  background: linear-gradient(135deg, #fff8e1 0%, #fff3e0 100%) !important;
+  border: 2px solid rgba(255, 152, 0, 0.2) !important;
+}
+
+/* 调整空白网格颜色，使其与数字模块有明显差异 */
+.grid-cell {
+  background: rgba(255, 250, 240, 0.9) !important; /* 更暖的米白色 */
+  box-shadow: inset 0 2px 4px rgba(255, 152, 0, 0.08) !important; /* 暖色调阴影 */
+  border: 1px solid rgba(255, 152, 0, 0.1) !important;
+}
+
+/* 调整数字方块基本样式 */
+.tile .tile-inner {
+  background: #fffaf0 !important;
+  color: #795548 !important;
+  box-shadow: 0 3px 8px rgba(255, 152, 0, 0.15) !important;
+  border: 1px solid rgba(255, 152, 0, 0.2) !important;
+  font-size: 50px !important; /* 进一步减小基础字体大小 */
+  padding: 0 10px !important; /* 增加内边距确保文字与边框有足够距离 */
+  text-overflow: ellipsis !important;
+  white-space: nowrap !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  overflow: hidden !important;
+  max-width: 100% !important;
+}
+
+/* 调整各数字方块的暖色调颜色 */
+.tile.tile-2 .tile-inner {
+  background: linear-gradient(135deg, #fff8e1 0%, #fff3e0 100%) !important;
+  color: #8d6e63 !important;
+  box-shadow: 0 2px 6px rgba(255, 193, 7, 0.2) !important;
+}
+
+.tile.tile-4 .tile-inner {
+  background: linear-gradient(135deg, #ffe0b2 0%, #ffcc80 100%) !important;
+  color: #795548 !important;
+  box-shadow: 0 2px 6px rgba(255, 193, 7, 0.25) !important;
+}
+
+.tile.tile-8 .tile-inner {
+  color: #ffffff !important;
+  background: linear-gradient(135deg, #ffcc80 0%, #ffb74d 100%) !important;
+  box-shadow: 0 3px 8px rgba(255, 183, 77, 0.3) !important;
+}
+
+.tile.tile-16 .tile-inner {
+  color: #ffffff !important;
+  background: linear-gradient(135deg, #ffb74d 0%, #ffa726 100%) !important;
+  box-shadow: 0 3px 8px rgba(255, 167, 38, 0.35) !important;
+}
+
+.tile.tile-32 .tile-inner {
+  color: #ffffff !important;
+  background: linear-gradient(135deg, #ffa726 0%, #ff9800 100%) !important;
+  box-shadow: 0 3px 8px rgba(255, 152, 0, 0.4) !important;
+}
+
+.tile.tile-64 .tile-inner {
+  color: #ffffff !important;
+  background: linear-gradient(135deg, #ff9800 0%, #f57c00 100%) !important;
+  box-shadow: 0 3px 8px rgba(245, 124, 0, 0.45) !important;
+}
+
+.tile.tile-128 .tile-inner {
+    color: #ffffff !important;
+    background: linear-gradient(135deg, #f57c00 0%, #ef6c00 100%) !important;
+    box-shadow: 0 4px 12px rgba(239, 108, 0, 0.5) !important;
+    font-size: 38px !important; /* 更安全的字体大小 */
+  }
+
+.tile.tile-256 .tile-inner {
+    color: #ffffff !important;
+    background: linear-gradient(135deg, #ef6c00 0%, #d84315 100%) !important;
+    box-shadow: 0 4px 12px rgba(216, 67, 21, 0.55) !important;
+    font-size: 34px !important; /* 更安全的字体大小 */
+  }
+
+.tile.tile-512 .tile-inner {
+    color: #ffffff !important;
+    background: linear-gradient(135deg, #d84315 0%, #bf360c 100%) !important;
+    box-shadow: 0 4px 12px rgba(191, 54, 12, 0.6) !important;
+    font-size: 32px !important; /* 更安全的字体大小 */
+  }
+
+.tile.tile-1024 .tile-inner {
+    color: #ffffff !important;
+    background: linear-gradient(135deg, #bf360c 0%, #e64a19 100%) !important;
+    box-shadow: 0 5px 16px rgba(255, 87, 34, 0.65) !important;
+    font-size: 26px !important; /* 更安全的字体大小 */
+  }
+
+/* 调整3069方块的科技感效果 */
+.tile.tile-3069 .tile-inner {
+  color: #ffffff !important;
+  background: linear-gradient(135deg, #ff6d00 0%, #ff5722 100%) !important;
+  box-shadow: 0 6px 20px rgba(255, 109, 0, 0.7) !important;
+  font-size: 22px !important; /* 确保3069数字完全适配网格，有充足余量 */
+}
+
+/* 增强3069方块的发光效果，提升科技感 */
+@keyframes glow {
+  from {
+    box-shadow: 0 6px 20px rgba(255, 109, 0, 0.7), 0 0 15px rgba(255, 193, 7, 0.3) !important;
+  }
+  to {
+    box-shadow: 0 8px 28px rgba(255, 109, 0, 0.9), 0 0 30px rgba(255, 193, 7, 0.5) !important;
+  }
+}

@@ -123,4 +123,4 @@ You can find the same information in the [contributing guide.](https://github.co
 I made this in my spare time, and it's hosted on GitHub (which means I don't have any hosting costs), but if you enjoyed the game and feel like buying me coffee,  Thank you very much!
 
 ## 捐赠（中文）
-我利用业余时间制作了这个游戏，它托管在GitHub上（这意味着我没有任何托管成本），如果您喜欢这个游戏并想请我喝杯咖啡，非常感谢您的支持！
+我利用业余时间制作了这个游戏，它托管在GitHub上（这意味着我没有任何托管成本），如果您喜欢这个游戏并想请我喝杯咖啡，真的非常感谢您的支持！
